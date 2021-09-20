@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+h1 {
+  font-size: 2.6rem;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+button {
+  padding: 2rem 6rem;
+  background: #4c6e97;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: cornflowerblue;
+  display: flex;
+}
+.kage {
+  cursor: pointer;
+  width: 14.3vw;
+  height: 100vh;
+  display: flex;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: #fff;
+  transition: width 0.5s linear;
+  overflow: hidden;
+}
+.kage:hover {
+  width: 45vw;
+}
+.kage:active {
+  width: 100vw;
+}
+.kage h2 {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: inline-block;
+}
+.stats {
+  writing-mode: horizontal-tb;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  padding: 2em;
+  width: 50rem;
+  display: inline-block;
+  margin-left: 100em;
+  margin-top: 10em;
+  position: absolute;
+  z-index: 11;
+  visibility: hidden;
+}
+
+.stats p {
+  margin-top: 1em;
+}
+.stats p a {
+  font-size: small;
+  text-decoration: underline;
+}
+#one {
+  background: url(./img/hashirama.png);
+  background-color: rgba(210, 105, 30, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#two {
+  background: url(./img/tobirama.png);
+  background-color: rgba(173, 216, 230, 0.747);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#three {
+  background: url(./img/hiruzen.png);
+  background-color: rgba(255, 0, 0, 0.8);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#four {
+  background: url(./img/minato.png);
+  background-color: rgba(255, 255, 0, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#five {
+  background: url(./img/tsunade.png);
+  background-color: rgba(172, 255, 47, 0.75);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#six {
+  background: url(./img/kakashi.png);
+  background-color: rgba(173, 216, 230, 0.7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#seven {
+  background: url(./img/naruto.png);
+  background-color: rgba(255, 166, 0, 0.81);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.back {
+  position: absolute;
+  z-index: 10;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 15rem;
+  visibility: hidden;
+}
+.back:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5),
+    0 6px 20px 0 rgba(255, 255, 255, 0.3);
+  transition: box-shadow 0.5s linear;
+  cursor: pointer;
+}
